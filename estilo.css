@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.menu{
+    width: 100%;    
+    height: 50px;
+    background-color: rgb(34, 34, 43);
+    
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+    
+
+}
+
+.menu ul li{
+    float: left;
+    width: 150px;
+    
+}
+
+.menu a{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color:  rgb(34, 34, 43);
+    color: #ccc;
+    
+}
+
+.menu ul ul{
+    position: relative;
+    visibility: hidden;
+}
+
+.menu li:hover ul{
+    visibility: visible;
+    
+}
+
+.menu li ul a{
+    border: rgba(216, 195, 167, 0.315) solid 1px;
+}
+
+.menu li ul a:hover {
+    text-decoration: underline;
+}
+
